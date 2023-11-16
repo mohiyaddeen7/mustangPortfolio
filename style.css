@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navListItem:hover .navListItemText {
+  visibility: visible;
+}
+
+.navListItem:hover {
+  box-shadow: 1px 1px 20px 1px white;
+}
+
+.heroBanner {
+  height: 70vh;
+  width: 100vw;
+  background-image: url("Asests/mustang1.jpg");
+}
+
+.mustangText {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 32px #fff,
+    0 0 42px #fff, 0 0 52px #fff, 0 0 80px #fff;
+}
+
+.card1:hover{
+  box-shadow: 2px 2px 50px white;
+}
+
+.testimonialItem{
+  border: 2px solid;
+  border-image: linear-gradient(to right, white 50%, transparent 50%) 100% 1;
+}
+
+footer{
+  box-shadow: 1px 1px 20px white;
+}
+
+.testimonialsUnderline{
+  box-shadow: 2px 2px 50px white;
+}
+
+.testimonialsHeading{
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
+
+}
+
+@media only screen and (max-width: 800px) {
+  .navListItemText {
+    display: none;
+  }
+
+  .navListItem{
+    position: relative;
+  }
+  .home:hover::before{
+    content: "Home";
+    position: absolute;
+    top: 100%;
+    color: white;
+    opacity: 0.75;
+  }
+  .about:hover::before{
+    content: "About";
+    position: absolute;
+    top: 100%;
+    color: white;
+    opacity: 0.75;
+  }
+  .contact:hover::after{
+    content: "Contact";
+    position: absolute;
+    top: 100%;
+    color: white;
+    opacity: 0.75;
+  }
+
+  .brand span{
+    font-size: small;
+    font-family:initial;
+  }
+  .brand img{
+    height: 2vh;
+  }
+
+  .navListItemContainer{
+    margin-right: 0.5rem;
+  }
+
+  .paragraphicContent{
+    flex-direction: column;
+    width: auto;
+  }
+  .paragraphicContent div{
+    margin: 0.5rem 0 0.5rem 0;
+    width: 100%;
+    height: 30vh;
+
+  }
+
+  .testimonials{
+    flex-direction: column;
+  }
+
+  .testimonialItem{
+    margin: 1rem 0 1rem 0;
+    flex-direction: column;
+    height: 30vh;
+    width: 100%;
+    padding: 0;
+  }
+
+  .testimonialContent{
+    overflow-y: auto;
+    padding: 0;
+  }
+
+  .footerContainer{
+    padding: 0;
+    margin-left: 0;
+  }
+  .footerContainer span{
+    margin: 0;
+    font-size: small;
+  }
+}
