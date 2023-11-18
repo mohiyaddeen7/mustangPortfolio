@@ -12,7 +12,7 @@ Welcome to the Mustang Portfolio repository! This is a static webpage created us
 
 Check out the live demo of the Mustang Portfolio [here](https://mohiyaddeen7.github.io/mustangPortfolio/).
 
-![Mustang Portfolio Screenshot](path-to-screenshot/image.png)
+![Mustang Portfolio Screenshot](ss/ss1.png)
 
 
 ## Features
